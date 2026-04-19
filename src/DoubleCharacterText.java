@@ -1,5 +1,7 @@
 public class DoubleCharacterText {
-    public static void main (String[] args){
+    public static String doubleChar (String originalText){
+        String doubleText ="";
 
+        for ()
     }
 }
