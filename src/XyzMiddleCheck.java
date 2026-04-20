@@ -13,6 +13,8 @@ public class XyzMiddleCheck {
         return false;
     }
     public static void main(String[] args){
-
+        System.out.println(xyzMiddle("AAxyzBB"));
+        System.out.println(xyzMiddle("AxyzBB"));
+        System.out.println(xyzMiddle("AxyzBBB"));
     }
 }
