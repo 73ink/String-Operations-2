@@ -1,7 +1,6 @@
 public class DoubleCharacterText {
-    public static String doubleChar (String originalText){
-        String doubleText ="";
 
+    public static void main(String[] args) {
 
     }
 }
