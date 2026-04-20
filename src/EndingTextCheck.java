@@ -5,6 +5,9 @@ public class EndingTextCheck {
         return  firstLowerText.endsWith(secondLowerText) || secondLowerText.endsWith(firstLowerText);
     }
     public static void main (String[] args){
-
+        System.out.println(endOther("Hiabc", "abc"));
+        System.out.println(endOther("AbC", "HiaBc"));
+        System.out.println(endOther("abc", "abXabc"));
     }
 }
+
