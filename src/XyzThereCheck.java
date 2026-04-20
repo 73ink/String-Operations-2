@@ -1,6 +1,13 @@
 public class XyzThereCheck {
     public static boolean xyzThere(String originalText){
         for (int index = 0; index < originalText.length() - 2; index++) {
+            String currentPart = originalText.substring(index, index + 3);
+
+            if (currentPart.equals("xyz")) {
+                if (index == 0 || originalText.charAt(index - 1) != '.') {
+                    return true;
+                }
+            }
         }
         return false;
     }
