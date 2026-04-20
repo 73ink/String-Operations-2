@@ -12,6 +12,8 @@ public class CountHiText {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(countHi("abc hi ho"));
+        System.out.println(countHi("ABChi hi"));
+        System.out.println(countHi("hihi"));
     }
 }
