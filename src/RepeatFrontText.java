@@ -7,6 +7,8 @@ public class RepeatFrontText {
         return resultText;
     }
     public static void main (String[] args){
-
+        System.out.println(repeatFront("Chocolate", 4));
+        System.out.println(repeatFront("Chocolate", 3));
+        System.out.println(repeatFront("Ice Cream", 2));
     }
 }
