@@ -15,6 +15,8 @@ public class MixedStringBuilder {
         return mixedText;
     }
     public static void main (String[] args){
-
+        System.out.println(mixString("abc", "xyz"));
+        System.out.println(mixString("Hi", "There"));
+        System.out.println(mixString("xxxx", "There"));
     }
 }
