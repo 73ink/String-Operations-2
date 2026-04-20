@@ -8,6 +8,8 @@ public class BobPatternCheck {
         return false;
     }
     public static void main (String[] args){
-
+        System.out.println(bobThere("abcbob"));
+        System.out.println(bobThere("b9b"));
+        System.out.println(bobThere("bac"));
     }
 }
