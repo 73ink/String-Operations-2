@@ -11,8 +11,8 @@ public class DoubleCharacterText {
     }
 
     public static void main(String[] args) {
-        System.out.println(doubleChar("The"));
-        System.out.println(doubleChar("AAbb"));
-        System.out.println(doubleChar("Hi-There"));
+        System.out.println(doubleChar("aish"));
+        System.out.println(doubleChar("Ha"));
+        System.out.println(doubleChar("Hi"));
     }
 }
