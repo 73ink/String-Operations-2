@@ -19,6 +19,8 @@ public class StarOutCleaner {
         return cleanedText;
     }
     public static void main (String[] args){
-
+        System.out.println(starOut("ab*cd"));
+        System.out.println(starOut("ab**cd"));
+        System.out.println(starOut("sm*eilly"));
     }
 }
