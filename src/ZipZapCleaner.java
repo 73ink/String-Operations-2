@@ -13,6 +13,8 @@ public class ZipZapCleaner {
             return cleanedText;
     }
     public static void main (String[] args){
-
+        System.out.println(zipZap("zipXzap"));
+        System.out.println(zipZap("zopzop"));
+        System.out.println(zipZap("zzzopzop"));
     }
 }
