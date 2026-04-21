@@ -4,7 +4,14 @@ public class PlusOutTextMask {
         int index = 0;
 
         while (index < originalText.length()) {
-
+            if (index <= originalText.length() - keepWord.length()
+                    && originalText.substring(index, index + keepWord.length()).equals(keepWord)) {
+                resultText += keepWord;
+                index += keepWord.length();
+            } else {
+                resultText += "+";
+                index++;
+            }
         }
         return resultText;
     }
