@@ -9,6 +9,8 @@ public class SandwichTextFinder {
         return "";
     }
     public static void main (String[] args){
-
+        System.out.println(getSandwich("breadjambread"));
+        System.out.println(getSandwich("xxbreadjambreadyy"));
+        System.out.println(getSandwich("xxbreadyy"));
     }
 }
