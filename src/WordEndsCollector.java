@@ -15,6 +15,8 @@ public class WordEndsCollector {
         return collectedText;
     }
     public static void main (String[] args){
-
+        System.out.println(wordEnds("abcXY123XYijk", "XY"));
+        System.out.println(wordEnds("XY123XY", "XY"));
+        System.out.println(wordEnds("XY1XY", "XY"));
     }
 }
