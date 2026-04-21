@@ -9,6 +9,8 @@ public class OneTwoTextShift {
         return shiftedText;
     }
     public static void main (String[] args){
-
+        System.out.println(oneTwo("abc"));
+        System.out.println(oneTwo("tca"));
+        System.out.println(oneTwo("tcagdo"));
     }
 }
