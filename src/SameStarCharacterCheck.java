@@ -10,6 +10,8 @@ public class SameStarCharacterCheck {
         return true;
     }
     public static void main(String[] args){
-
+        System.out.println(sameStarChar("xy*yzz"));
+        System.out.println(sameStarChar("xy*zzz"));
+        System.out.println(sameStarChar("*xa*az"));
     }
 }
